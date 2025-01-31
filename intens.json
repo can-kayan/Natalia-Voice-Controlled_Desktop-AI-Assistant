@@ -1,0 +1,142 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": ["Hello", "How are you?", "Are you there?", "Hi", "Good morning", "What's up", "Hey", "Good day"],
+        "responses": ["Hello!", "Nice to see you again!", "Hello, how can I assist you?"],
+        "context_set": ""
+      },
+      {
+        "tag": "farewell",
+        "patterns": ["See you", "Goodbye", "I'm leaving", "Good day", "Bye", "Take care", "I'm out"],
+        "responses": ["It was nice seeing you :)", "See you later!", "Goodbye!"],
+        "context_set": ""
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "Much appreciated", "I am grateful", "Thanks a lot"],
+        "responses": ["You're welcome!", "Anytime!", "Glad I could help!"],
+        "context_set": ""
+      },
+      {
+        "tag": "help",
+        "patterns": ["Can you help me?", "I need help", "I need support", "I have a question", "Can you guide me?"],
+        "responses": ["Of course! How can I help?", "I'm here, how can I assist you?", "I'll do my best, go ahead."],
+        "context_set": ""
+      },
+      {
+        "tag": "weather",
+        "patterns": ["How's the weather?", "What's the weather like today?", "Will it rain?", "Is it sunny?", "What's the forecast?"],
+        "responses": ["It's sunny today!", "Looks like there's a chance of rain.", "It's cloudy right now.", "The weather looks great!"],
+        "context_set": ""
+      },
+      {
+        "tag": "name",
+        "patterns": ["What's your name?", "What can I call you?", "Who are you?", "Can I know your name?"],
+        "responses": ["I'm your friendly assistant!", "You can call me Natalia."],
+        "context_set": ""
+      },
+      {
+        "tag": "joke",
+        "patterns": ["Tell me a joke", "Make me laugh", "Do you know any jokes?", "Say something funny"],
+        "responses": ["Why don't skeletons fight each other? They don't have the guts!", "Why did the scarecrow win an award? Because he was outstanding in his field!"],
+        "context_set": ""
+      },
+      {
+        "tag": "food",
+        "patterns": ["What should I cook?", "What should I eat today?", "Can you suggest a meal?", "What's your favorite food?"],
+        "responses": ["How about making some pasta today?", "If you want something healthy, a salad is a great choice!", "Pizza is always a good idea!"],
+        "context_set": ""
+      },
+      {
+        "tag": "movie",
+        "patterns": ["What movie should I watch?", "Can you recommend a film?", "Anything to watch today?", "What's your favorite movie?"],
+        "responses": ["How about watching a comedy today?", "If you like sci-fi, 'Interstellar' is a great pick!", "For something romantic, 'The Notebook' is a wonderful choice."],
+        "context_set": ""
+      },
+      {
+        "tag": "motivation",
+        "patterns": ["I'm feeling down.", "Cheer me up.", "What should I do to succeed?", "I'm looking for motivation.","Motivate me", "I need inspiration", "Say something encouraging", "I'm low on energy"],
+        "responses": ["Start with small steps; every big achievement begins with them.", "Remember, everyone has a starting point.", "Believe in yourself and never give up.", "Today might be tough, but tomorrow will be better.","Remember, failure is a step towards success.", "Believe in yourself, because you can do it!", "Today is a great day, make it yours!"],
+        "context_set": ""
+      },
+      {
+        "tag": "shopping",
+        "patterns": ["What should I buy?", "Any shopping advice?", "Should I buy something today?", "Are there any discounts?"],
+        "responses": ["Have you checked your shopping list?", "You might find something within your budget today.", "Checking for discounts is always a great idea!"],
+        "context_set": ""
+      },
+      {
+        "tag": "exercise",
+        "patterns": ["What sport should I do?", "Should I exercise today?", "Can you suggest a fitness routine?", "I'm thinking of working out."],
+        "responses": ["A walk would be great today!", "How about trying yoga or pilates?", "Add some energy to your day with cardio!"],
+        "context_set": ""
+      },
+      {
+        "tag": "book",
+        "patterns": ["What book should I read?", "Can you recommend a book?", "What's your favorite book?", "Anything to read today?"],
+        "responses": ["Try reading a novel today!", "If you like sci-fi, 'Dune' is a fantastic choice!", "For personal development, I recommend 'The 7 Habits of Highly Effective People.'"],
+        "context_set": ""
+      },
+      {
+        "tag": "travel",
+        "patterns": ["Where should I go for a vacation?", "Can you suggest a travel destination?", "I want to go somewhere today.", "Is there a nice place to visit?"],
+        "responses": ["You can visit the stunning landscapes of Cappadocia in Turkey!", "For a seaside getaway, Antalya is a perfect choice.", "Nature lovers would enjoy the Black Sea region!"],
+        "context_set": ""
+      },
+      {
+        "tag": "emotion",
+        "patterns": ["Do you have feelings?", "Are you happy?", "Do you ever feel sad?", "Do you get angry?", "How do you feel?","I'm feeling bad", "I'm upset", "Can you comfort me?", "I need some support."],
+        "responses": ["I don't have emotions, but I try to understand yours.", "Seeing you happy makes me happy too.", "What's important to me is being able to help you.", "I don't get angry; I always aim to be calm and understanding.", "I feel my best when I'm talking with you! 😊","It's normal to feel sad, but this too shall pass.", "I believe in you; things will get better.", "Take some time and do something you love."],
+        "context_set": ""
+      },
+      {
+        "tag": "password",
+        "patterns": ["I forgot my password", "How do I create a secure password?", "Can you suggest a strong password?", "Can you help me reset my password?"],
+        "responses": ["Check your registered email to reset your password.", "For a secure password, use a mix of uppercase, lowercase, numbers, and special characters.", "If you've forgotten your password, use the 'Forgot Password' link."],
+        "context_set": ""
+      },
+      {
+        "tag": "nature",
+        "patterns": ["What can I do in nature?", "I love nature", "Should I go outside today?", "Any outdoor activity suggestions?"],
+        "responses": ["You could go for a walk today!", "Spending time in a park might feel great.", "Try taking a nature photo!"],
+        "context_set": ""
+      },
+      {
+        "tag": "hobby",
+        "patterns": ["Can you suggest a hobby?", "What should I do in my free time?", "I want to learn something new.", "Do you have a fun hobby suggestion?"],
+        "responses": ["You could try painting.", "How about learning to play a musical instrument?", "Learning a new language could be a great idea."],
+        "context_set": ""
+      },
+      {
+        "tag": "technology",
+        "patterns": ["Which phone do you recommend?", "I want to buy a new computer, any suggestions?", "What are the technologies of the future?", "What do you think about AI?","Which phone should I buy?", "Any tech news?", "Was any new device launched today?", "What are the latest tech products?"],
+        "responses": ["Choose a phone based on your usage needs.", "When selecting a computer, consider the processor and RAM features.", "AI is becoming more integrated into our lives every day.", "Augmented reality could be a big revolution in the future.","Check out tech blogs to stay updated on today's launches.", "Choosing a device based on your needs is a good idea.", "Smart home devices are popular; take a look!"],
+        "context_set": ""
+      },
+      {
+        "tag": "advice",
+        "patterns": ["What should I do to be successful in life?", "Can you give me some advice?", "How do I progress in my career?", "How do I make the right decisions?"],
+        "responses": ["Set your goals and focus on them.", "Try to learn something new every day.", "Using your time efficiently makes a big difference.", "Connect with the right people and environment."],
+        "context_set": ""
+      },
+      {
+        "tag": "friendship",
+        "patterns": ["Will you listen to me?", "Can we be friends?", "I'm lonely, will you talk to me?", "You're a good friend.", "I enjoy talking to you."],
+        "responses": ["Of course, I'm always here to listen to you.", "Being friends with you is an honor!", "I'm always here when you want to talk.", "Talking to you makes me very happy.", "Remember, you're not alone; I'm always here."],
+        "context_set": ""
+      },
+      {
+        "tag": "daily",
+        "patterns": ["How are you today?", "What are you up to?", "Can you tell me how your day went?", "Are you busy right now?", "How's the weather?"],
+        "responses": ["As usual, I'm here and ready!", "My days are spent talking to you. 😊", "I'm not busy; I can fully focus on you.", "The weather is far from me, but my mood is always sunny!", "I'm here to help you; that's all I need!"],
+        "context_set": ""
+      },
+      {
+        "tag": "compliment",
+        "patterns": ["I love you.", "You're an amazing bot.", "Talking to you is so enjoyable.", "I'm glad you're here.", "I adore you!"],
+        "responses": ["Thank you, that really makes me happy! 😊", "Having a user like you is a big privilege for me.", "If I can make you happy, I'm fulfilling my purpose.", "Your words motivate me; thank you!", "Talking to someone like you is a joy for me too!"],
+        "context_set": ""
+      }
+    ]
+}
